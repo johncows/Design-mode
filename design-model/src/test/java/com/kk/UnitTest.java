@@ -8,7 +8,10 @@ import org.springframework.util.StopWatch;
 import sun.reflect.Reflection;
 
 import java.io.*;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.concurrent.CountDownLatch;
 
 public class UnitTest {
@@ -74,6 +77,31 @@ public class UnitTest {
     }
 
 
+    @Test
+    public void fun4() throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
+        LazyInstance4 instance = LazyInstance4.getInstance();
+        System.out.println( instance);
+        Class<LazyInstance4> lazyInstance4Class = LazyInstance4.class;
+        Constructor<LazyInstance4> constructor = lazyInstance4Class.getDeclaredConstructor(null);
+        constructor.setAccessible(true);
+        LazyInstance4 lazyInstance4 = constructor.newInstance();
+        System.out.println(lazyInstance4);
+    }
+
+
+
+    /**
+     * @Description: map中put返回值为旧址
+     */
+    @Test
+    public void  fun5(){
+        HashMap<String, String> map = new HashMap<>();
+        map.put("兰陵笑笑生","西游记");
+        String put = map.put("兰陵笑笑生", "金瓶梅");
+        System.out.println("put = " + put);
+
+
+    }
 
 
 
