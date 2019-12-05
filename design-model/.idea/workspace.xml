@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53bbb240-28f2-4dfb-84cc-1c6f21060ba2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/decorate/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/decorate/Decorate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/decorate/DecorateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/decorate/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/cglibs/CglibTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/cglibs/ProxyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/cglibs/RealSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/dynamic/DynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/dynamic/MonitorTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/dynamic/OtherTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/dynamic/RealSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/dynamic/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/staticproxy/ProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/staticproxy/ProxySubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/staticproxy/RealSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/staticproxy/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/obsever/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/obsever/Eventlistener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/obsever/real/DemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/obsever/real/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/obsever/real/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/obsever/real/SubjectEventType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kk/propertype/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kk/propertype/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/kk/UnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kk/UnitTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="design-model" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/JavaSoftware/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="F:\JavaSoftware\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TPMSUegphu1mpHRJb7DUlKEIVs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/kk/delegate" />
+    <property name="last_opened_file_path" value="F:/MavenResourse/org/springframework/spring-core/5.2.0.RELEASE/spring-core-5.2.0.RELEASE-sources.jar!/" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kk.delegate.dymanic" />
+      <recent name="com.kk.strategy.pays" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DemoTest">
+    <configuration name="DemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kk.obsever.real.DemoTest" />
+      <module name="design-model" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kk.obsever.real.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CglibTest.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design-model" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kk.delegate.cglibs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kk.delegate.cglibs" />
+      <option name="MAIN_CLASS_NAME" value="com.kk.delegate.cglibs.CglibTest" />
+      <option name="METHOD_NAME" value="fun" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecorateTest.fun1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design-model" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kk.decorate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kk.decorate" />
+      <option name="MAIN_CLASS_NAME" value="com.kk.decorate.DecorateTest" />
+      <option name="METHOD_NAME" value="fun1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecorateTest.fun2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design-model" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kk.decorate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kk.decorate" />
+      <option name="MAIN_CLASS_NAME" value="com.kk.decorate.DecorateTest" />
+      <option name="METHOD_NAME" value="fun2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyTest.testDynamic3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design-model" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kk.delegate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kk.delegate" />
+      <option name="MAIN_CLASS_NAME" value="com.kk.delegate.ProxyTest" />
+      <option name="METHOD_NAME" value="testDynamic3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DesignModelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="design-model" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.DesignModelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DemoTest" />
+        <item itemvalue="JUnit.DecorateTest.fun2" />
+        <item itemvalue="JUnit.DecorateTest.fun1" />
+        <item itemvalue="JUnit.CglibTest.fun" />
+        <item itemvalue="JUnit.ProxyTest.testDynamic3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53bbb240-28f2-4dfb-84cc-1c6f21060ba2" name="Default Changelist" comment="" />
+      <created>1573357276242</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573357276242</updated>
+      <workItem from="1573357277523" duration="3988000" />
+      <workItem from="1573435424153" duration="1277000" />
+      <workItem from="1573968687977" duration="7114000" />
+      <workItem from="1574044374767" duration="61000" />
+      <workItem from="1574262341149" duration="252000" />
+      <workItem from="1574299778566" duration="10000" />
+      <workItem from="1574320090005" duration="361000" />
+      <workItem from="1574389219835" duration="8384000" />
+      <workItem from="1574758827643" duration="4374000" />
+      <workItem from="1574773385222" duration="717000" />
+      <workItem from="1574818549881" duration="1721000" />
+      <workItem from="1575363546653" duration="4006000" />
+      <workItem from="1575425080689" duration="11000" />
+      <workItem from="1575468711962" duration="2282000" />
+      <workItem from="1575510114106" duration="662000" />
+      <workItem from="1575535283139" duration="498000" />
+    </task>
+    <task id="LOCAL-00001" summary="strategy and Template 's design model">
+      <created>1573986865967</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573986865967</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="strategy and Template 's design model" />
+    <option name="LAST_COMMIT_MESSAGE" value="strategy and Template 's design model" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="258" y="211" key="#com.intellij.ide.util.MemberChooser" timestamp="1575469435053">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="258" y="211" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1575469435053" />
+    <state width="1493" height="281" key="GridCell.Tab.0.bottom" timestamp="1575470802516">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="281" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575470802516" />
+    <state width="1493" height="281" key="GridCell.Tab.0.center" timestamp="1575470802516">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="281" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575470802516" />
+    <state width="1493" height="281" key="GridCell.Tab.0.left" timestamp="1575470802516">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="281" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575470802516" />
+    <state width="1493" height="281" key="GridCell.Tab.0.right" timestamp="1575470802516">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="281" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575470802516" />
+    <state width="1493" height="251" key="GridCell.Tab.1.bottom" timestamp="1575368266939">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575368266939" />
+    <state width="1493" height="251" key="GridCell.Tab.1.center" timestamp="1575368266939">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1575368266939" />
+    <state width="1493" height="251" key="GridCell.Tab.1.left" timestamp="1575368266939">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1575368266939" />
+    <state width="1493" height="251" key="GridCell.Tab.1.right" timestamp="1575368266939">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="251" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1575368266939" />
+    <state x="167" y="184" key="IDE.errors.dialog" timestamp="1575535753480">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="167" y="184" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1575535753480" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1575469587131">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1575469587131" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1575366641218">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1575366641218" />
+  </component>
+</project>

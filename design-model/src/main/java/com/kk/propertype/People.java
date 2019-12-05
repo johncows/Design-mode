@@ -5,10 +5,10 @@ import java.util.Date;
 
 public class People implements  Cloneable, Serializable {
 
-    int id;
-    Integer age;
-    Date birthday;
-    Car car;
+    private int id;
+    private Integer age;
+    private Date birthday;
+    private Car car;
 
     @Override
     public Object clone() throws CloneNotSupportedException {
