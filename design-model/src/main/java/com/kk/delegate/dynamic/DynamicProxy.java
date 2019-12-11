@@ -11,14 +11,13 @@ import java.util.Date;
  */
 public class DynamicProxy implements InvocationHandler {
 
-    //被代理类()
+    //被代理类
     private Object targetObj;
 
-    // 注入对象
+    // 通过构造注入对象
     public DynamicProxy(Object targetObj) {
         this.targetObj = targetObj;
     }
-
 
     /**
      *
@@ -32,10 +31,8 @@ public class DynamicProxy implements InvocationHandler {
 
         System.out.println(proxy.getClass().getName());
         System.out.println("开始时间 "+new Date());
-
         //执行目标方法
         Object invoke = method.invoke(targetObj, args);
-
         System.out.println("结束时间 "+new Date());
         return invoke;
     }

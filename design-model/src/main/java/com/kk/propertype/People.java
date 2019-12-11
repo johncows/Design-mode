@@ -1,5 +1,7 @@
 package com.kk.propertype;
 
+import org.springframework.stereotype.Component;
+
 import java.io.*;
 import java.util.Date;
 
@@ -9,6 +11,7 @@ public class People implements  Cloneable, Serializable {
     private Integer age;
     private Date birthday;
     private Car car;
+
 
     @Override
     public Object clone() throws CloneNotSupportedException {

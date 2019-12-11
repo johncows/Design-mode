@@ -15,3 +15,4 @@ public class Decorate implements Component{
         System.out.println("i am broken");
     }
 }
+

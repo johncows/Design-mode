@@ -2,31 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53bbb240-28f2-4dfb-84cc-1c6f21060ba2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/decorate/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/decorate/Decorate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/decorate/DecorateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/decorate/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/ProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/cglibs/CglibTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/cglibs/ProxyClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/cglibs/RealSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/dynamic/DynamicProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/dynamic/MonitorTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/dynamic/OtherTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/dynamic/RealSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/dynamic/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/staticproxy/ProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/staticproxy/ProxySubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/staticproxy/RealSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/staticproxy/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/obsever/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/obsever/Eventlistener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/obsever/real/DemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/obsever/real/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/obsever/real/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kk/obsever/real/SubjectEventType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kk/DesignModelApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kk/DesignModelApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kk/decorate/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kk/decorate/Component.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kk/decorate/Decorate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kk/decorate/Decorate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kk/delegate/dynamic/DynamicProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/dynamic/DynamicProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kk/delegate/dynamic/MonitorTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kk/delegate/dynamic/MonitorTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kk/propertype/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kk/propertype/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kk/UnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kk/UnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,13 +75,26 @@
       <recent name="com.kk.strategy.pays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DemoTest">
+  <component name="RunManager" selected="Application.aa">
     <configuration name="DemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kk.obsever.real.DemoTest" />
       <module name="design-model" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.kk.obsever.real.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kk.aa" />
+      <module name="design-model" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,22 +150,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxyTest.testDynamic3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="design-model" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kk.delegate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kk.delegate" />
-      <option name="MAIN_CLASS_NAME" value="com.kk.delegate.ProxyTest" />
-      <option name="METHOD_NAME" value="testDynamic3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DesignModelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="design-model" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.kk.DesignModelApplication" />
@@ -181,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.aa" />
         <item itemvalue="Application.DemoTest" />
         <item itemvalue="JUnit.DecorateTest.fun2" />
         <item itemvalue="JUnit.DecorateTest.fun1" />
         <item itemvalue="JUnit.CglibTest.fun" />
-        <item itemvalue="JUnit.ProxyTest.testDynamic3" />
       </list>
     </recent_temporary>
   </component>
@@ -227,6 +205,10 @@
       <workItem from="1575468711962" duration="2282000" />
       <workItem from="1575510114106" duration="662000" />
       <workItem from="1575535283139" duration="498000" />
+      <workItem from="1575538821844" duration="2145000" />
+      <workItem from="1575597937582" duration="2827000" />
+      <workItem from="1575621982341" duration="720000" />
+      <workItem from="1576049231146" duration="6359000" />
     </task>
     <task id="LOCAL-00001" summary="strategy and Template 's design model">
       <created>1573986865967</created>
@@ -259,26 +241,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="strategy and Template 's design model" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="258" y="211" key="#com.intellij.ide.util.MemberChooser" timestamp="1575469435053">
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576054211241">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="258" y="211" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1575469435053" />
-    <state width="1493" height="281" key="GridCell.Tab.0.bottom" timestamp="1575470802516">
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1576054211241" />
+    <state x="258" y="211" key="#com.intellij.ide.util.MemberChooser" timestamp="1576052391354">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="281" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575470802516" />
-    <state width="1493" height="281" key="GridCell.Tab.0.center" timestamp="1575470802516">
+    <state x="258" y="211" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1576052391354" />
+    <state width="1493" height="281" key="GridCell.Tab.0.bottom" timestamp="1575626739708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="281" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575470802516" />
-    <state width="1493" height="281" key="GridCell.Tab.0.left" timestamp="1575470802516">
+    <state width="1493" height="281" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575626739708" />
+    <state width="1493" height="281" key="GridCell.Tab.0.center" timestamp="1575626739708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="281" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575470802516" />
-    <state width="1493" height="281" key="GridCell.Tab.0.right" timestamp="1575470802516">
+    <state width="1493" height="281" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575626739708" />
+    <state width="1493" height="281" key="GridCell.Tab.0.left" timestamp="1575626739708">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="281" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575470802516" />
+    <state width="1493" height="281" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575626739708" />
+    <state width="1493" height="281" key="GridCell.Tab.0.right" timestamp="1575626739708">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="281" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575626739708" />
     <state width="1493" height="251" key="GridCell.Tab.1.bottom" timestamp="1575368266939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -303,9 +289,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1575469587131" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1575366641218">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1576052193666">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1575366641218" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1576052193666" />
   </component>
 </project>

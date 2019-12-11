@@ -14,5 +14,4 @@ public class MonitorTask implements OtherTask
         }
         return "the status is normal";
     }
-
 }
